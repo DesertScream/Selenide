@@ -37,7 +37,6 @@ public class CardDeliveryTest {
         $(byText("Забронировать")).click();
         $(".notification__content")
                 .shouldHave(Condition.text("Встреча успешно забронирована на " + planningDate), Duration.ofSeconds(15));
-
     }
 
     @Test
