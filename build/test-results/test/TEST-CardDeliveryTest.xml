@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="CardDeliveryTest" tests="11" skipped="0" failures="0" errors="0" timestamp="2022-05-19T17:34:21" hostname="TOSHIK" time="25.029">
+  <properties/>
+  <testcase name="shouldWarnIfDateIsNotSelected()" classname="CardDeliveryTest" time="5.514"/>
+  <testcase name="shouldSuccessfullySendARequestToTheCard()" classname="CardDeliveryTest" time="11.255"/>
+  <testcase name="shouldBeWarnedIfThereAreForeignLettersAndInvalidCharactersInTheLastNameAndFirstNameField()" classname="CardDeliveryTest" time="1.119"/>
+  <testcase name="shouldWarnWhenThereAreForeignLettersInTheNameOfTheDeliveryCity()" classname="CardDeliveryTest" time="0.907"/>
+  <testcase name="should()" classname="CardDeliveryTest" time="0.836"/>
+  <testcase name="shouldBeWarnedIfTheLastNameAndFirstNameFieldsAreNotFilledIn()" classname="CardDeliveryTest" time="0.878"/>
+  <testcase name="shouldWarnWhenThereAreInvalidCharactersInTheNameOfTheDeliveryCity()" classname="CardDeliveryTest" time="0.946"/>
+  <testcase name="shouldWarnWhenCityFieldIsEmpty()" classname="CardDeliveryTest" time="0.814"/>
+  <testcase name="shouldWarnedAboutTheInvalidFormatForEnteringAPhoneNumber()" classname="CardDeliveryTest" time="0.878"/>
+  <testcase name="shouldWarnWhenDeliveryToTheSelectedLocalityIsNotAvailable()" classname="CardDeliveryTest" time="0.991"/>
+  <testcase name="shouldBeWarnedIfTheDateIsSelectedEarlierThanThreeDaysBeforeTheMeeting()" classname="CardDeliveryTest" time="0.881"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Starting ChromeDriver 101.0.4951.41 (93c720db8323b3ec10d056025ab95c23a31997c9-refs/branch-heads/4951@{#904}) on port 50128
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+мая 19, 2022 10:34:25 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+мая 19, 2022 10:34:25 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 101, so returning the closest version found: 99
+мая 19, 2022 10:34:25 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found CDP implementation for version 101 of 99
+]]></system-err>
+</testsuite>
